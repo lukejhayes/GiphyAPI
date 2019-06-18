@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Giphy Web Page</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="./style.css">
+    <link rel="icon" type="image" href="./[images]/246x0w.jpg"/>
+</head>
+
+<body>
+<main>
+    <div class="wrapper">
+        <div class="jumbotron">
+            <h1 class="title"> Giphy Web Page </h1>
+
+            <div class="instructions">
+                <h2> Instructions: </h2>
+                <p>
+                    Click a button below to display each movies gifs.
+                    Type any movie into the search bar and hit 'add movie' to get more gifs!
+                </p>
+            </div>
+
+            <form id="movie-form">
+                <label for="movie-input"> Add a Movie: </label>
+                <input type="text" id="movie-input">
+                <button id="add-movie" type="submit" value="submit">submit
+                </button>
+            </form>
+        </div>
+    </div>
+
+    <div id="movies-view"> </div>
+    <div id="new-button"> </div>
+    <br></br>
+    
+    <div class="container">
+        <div id ="image-space" class='row'> </div>
+    </div>
+</main>
+
+    <!-- JQ/BS source links --> 
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script type="text/javascript" src="./giphyApi.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+    
+</body>
+</html>
+	
+
+	

@@ -1,0 +1,64 @@
+/* class names use .class */
+/* id values use #idName */
+/* for basic skeleton just type the name */
+/* EX: h1{} or body{} */
+.title{
+    color: aqua;
+    font-size: 45px;
+    font-weight: bolder;
+    text-align: center;
+    border-bottom: 5px solid rgb(128,0,128);
+    border-top: 5px solid rgb(128,0,128);
+    margin-top: 0%;
+    margin-bottom: 0%;
+}
+.jumbotron {
+    margin-top: 0% !important;
+    background-color: black;
+}
+body{
+    margin-top: 0% !important;
+    background-color: black;
+}
+h2{
+    color: rgb(128,0,128);
+    font-size: 35px;
+    font-style: italic;
+    text-align: center;
+}
+p{
+    color: whitesmoke;
+    font-size: 20px;
+    font-style: italic;
+    border-bottom: 2.5px solid whitesmoke;
+    border-top: 2.5px solid whitesmoke;
+    padding: 5px;
+    text-align: center;
+}
+#movie-form{
+    margin-top: 0%;
+    color: aqua;
+    font-weight: bolder;
+    font-size: 20px;
+    text-decoration: wavy;
+    letter-spacing: 2px;
+    text-align: center;
+    margin-bottom: 0% !important;
+}
+#add-movie{
+    margin-top: 0%;
+    margin-bottom: 0%;
+    font-size: 15px;
+    background-color: aqua;
+}
+#new-button{
+    margin-top: 0%; 
+    text-align: center;
+    font-size: 17px;
+    word-spacing: 2px;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+footer{
+    margin-bottom: 5%;
+}
