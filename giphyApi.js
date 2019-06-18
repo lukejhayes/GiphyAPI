@@ -42,7 +42,7 @@ $(document).on("click", ".gen-button", function(event){
 
     // sets the API key and generates the jqueryURL
     var apiKey = "c59OeoUTfoBMqI9eXGv06pZ18R1Qkf4s";
-    var queryURL = "http://api.giphy.com/v1/gifs/search?q='" + buttonName + "'&api_key=" + apiKey + "&limit=10&rating=g";
+    var queryURL = "https://api.giphy.com/v1/gifs/search?q='" + buttonName + "'&api_key=" + apiKey + "&limit=10&rating=g";
     
     // ajax call
     $.ajax({
