@@ -38,11 +38,13 @@ $("#add-movie").on("click", function(e){
 // creates on click event for new button
 $(document).on("click", ".gen-button", function(event){
     // adds custom made attribute to the clicked button and assign it to a variable.
-    var buttonName = $(this).attr("data-button");
+    var buttonName = $(this).attr("data-button"); //the hangover
 
     // sets the API key and generates the jqueryURL
     var apiKey = "c59OeoUTfoBMqI9eXGv06pZ18R1Qkf4s";
     var queryURL = "https://api.giphy.com/v1/gifs/search?q='" + buttonName + "'&api_key=" + apiKey + "&limit=10&rating=g";
+    //"https://api.giphy.com/v1/gifs/search?q='the hangover'&api_key=c59OeoUTfoBMqI9eXGv06pZ18R1Qkf4s&limit=10&rating=g";
+    //https://api.giphy.com/v1/gifs/search?api_key=c59OeoUTfoBMqI9eXGv06pZ18R1Qkf4s&q=hangover&limit=25&offset=0&rating=G&lang=en
     
     // ajax call
     $.ajax({
@@ -52,7 +54,7 @@ $(document).on("click", ".gen-button", function(event){
         $("#image-space").empty();
         // console.log(res)
         
-        var gifArray = res.data;
+        var gifArray = res.data; //[]
         // randomGif = Math.floor(Math.random() * (4 - 1 + 1)) + 1;   
 
         for(var i = 0; i < gifArray.length; i ++){
